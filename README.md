@@ -18,8 +18,10 @@
 
 ## User Interface:
 
-- [x] Live Demo
-![index](images/readme-images/demo.mp4)
+
+https://user-images.githubusercontent.com/77569653/172716965-50560f4a-2acf-4013-ae87-8b474b2a09e3.mp4
+
+
 
 - [x] Upload Your File
 
