@@ -5,13 +5,6 @@
 
 
 - This webapp uses Huffman Coding for Text Compression and De-compression.
-<<<<<<< HEAD
-
-- Made with JavaScript, HTML5 and CSS3.
-
-- Live Demo: [samirpaul1.github.io/txt-compressor](https://samirpaul1.github.io/txt-compressor/)
-             [txt-compressor.herokuapp.com](https://txt-compressor.herokuapp.com/)
-=======
 - Made with JavaScript, HTML5 and CSS3.
 - Live Demo:👇
 
@@ -19,7 +12,6 @@
 
 - [x] [txt-compressor.herokuapp.com](https://txt-compressor.herokuapp.com/)
 
->>>>>>> 8a8574fcf5f9b7809a36c8848d1deebaf1cfcd55
 
 ## About this application:
 
@@ -31,29 +23,35 @@
 * An [Info page](https://samirpaul1.github.io/txt-compressor/info.html) is added to give more information about tecnique of **Lossless Data Compression** with Huffman coding.
 
 
-<<<<<<< HEAD
-- [x] Live Demo
-<a href="{images/readme-images/demo.mp4}" title="Live Demo Video">alt="Live Demo Video" /></a>
-=======
+
+
 ## Video
 https://user-images.githubusercontent.com/77569653/172716965-50560f4a-2acf-4013-ae87-8b474b2a09e3.mp4
->>>>>>> 8a8574fcf5f9b7809a36c8848d1deebaf1cfcd55
 
 
+
+- [x] Landing Page:
+![screenshot](./images/readme-images/landing-page.png)
 
 - [x] Upload File
+
 ![step1](images/readme-images/step1.png)
 
+
 - [x] Select Action (Compress / De-compress)
+
 ![step2](images/readme-images/step2.png)
+
 
 - [x] Wait for File Download
     * File gets downloaded automatically when selected process is complete.
 
     * Compression - Compression Ratio is also displayed 
+
     ![compression](screenshots/compressionss.png)
     
     * De-compression
+
     ![decompression](screenshots/decompressionss1.png)
 
 * Additional Instructions and Warnings are provided if the above steps are not followed correctly
