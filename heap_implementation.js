@@ -1,6 +1,6 @@
 /* 
-	Author : Samyak Jain
-	Created on : 30 June 2020
+	Author : Samir Paul
+
 */
 // export { MinHeap }
 class MinHeap {

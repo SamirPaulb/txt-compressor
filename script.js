@@ -1,8 +1,6 @@
 /* 
-	Author : Samyak Jain
-	Created on : 30 June 2020
+	Author : Samir Paul
 */
-// import { Codec } from "./codec_implementation.js";
 
 /// min heap implementation 
 class MinHeap {
@@ -106,9 +104,7 @@ class MinHeap {
 
 /// coder decoder class
 class Codec {
-	// constructor() {
-	//     this.codes = {};
-	// }   
+
 
 	/// dfs
 	getCodes(node, curr_code) {
@@ -183,10 +179,7 @@ class Codec {
 			this.heap.push([value, key]);
 		}
 
-		/// alternate way
-		// mp.forEach(function (value, key) {
-		//     console.log([value, key]);
-		// })
+
 		while (this.heap.size() >= 2) {
 			let min_node1 = this.heap.top();
 			this.heap.pop();
