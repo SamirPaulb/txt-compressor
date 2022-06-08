@@ -2,10 +2,16 @@
 <div align="center">
 <h1> Text File Compressor De-compressor Web App</h1>
 </div>
-* This webapp uses Huffman Coding for Text Compression and De-compression.
-* Made with JavaScript, HTML5 and CSS3.
-* Live Demo: [samirpaul1.github.io/txt-compressor](https://samirpaul1.github.io/txt-compressor/)
-             [txt-compressor.herokuapp.com](https://txt-compressor.herokuapp.com/)
+
+
+- This webapp uses Huffman Coding for Text Compression and De-compression.
+- Made with JavaScript, HTML5 and CSS3.
+- Live Demo:👇
+
+- [x] [samirpaul1.github.io/txt-compressor](https://samirpaul1.github.io/txt-compressor/)
+
+- [x] [txt-compressor.herokuapp.com](https://txt-compressor.herokuapp.com/)
+
 
 ## About this application:
 
@@ -22,21 +28,19 @@ https://user-images.githubusercontent.com/77569653/172716965-50560f4a-2acf-4013-
 
 
 
-- [x] Upload Your File
-
-![step1](screenshots/step1ss.png)
+- [x] Upload File
+![step1](images/readme-images/step1.png)
 
 - [x] Select Action (Compress / De-compress)
+![step2](images/readme-images/step2.png)
 
-![step2](screenshots/step2ss.png)
-* Step 3 : Sit Back and Relax
-    * Required file gets downloaded automatically when process is complete
+- [x] Wait for File Download
+    * File gets downloaded automatically when selected process is complete.
 
     * Compression - Compression Ratio is also displayed 
- 
     ![compression](screenshots/compressionss.png)
+    
     * De-compression
- 
     ![decompression](screenshots/decompressionss1.png)
 
 * Additional Instructions and Warnings are provided if the above steps are not followed correctly
