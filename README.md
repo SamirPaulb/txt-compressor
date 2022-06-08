@@ -41,7 +41,7 @@ https://user-images.githubusercontent.com/77569653/172716965-50560f4a-2acf-4013-
 
 - [x] Select Action (Compress / De-compress)
 
-![step2](images/readme-images/step2.png)
+<a href="#"> ![step2](images/readme-images/step2.png) </a>
 
 
 - [x] Wait for File Download
@@ -49,24 +49,21 @@ https://user-images.githubusercontent.com/77569653/172716965-50560f4a-2acf-4013-
 
     * Compression - Compression Ratio is also displayed 
 
-    ![compression](screenshots/compressionss.png)
+    <a href="#"> ![compression](images/readme-images/step3.png) </a>
     
     * De-compression
 
-    ![decompression](screenshots/decompressionss1.png)
+    <a href="#"> ![decompression](images/readme-images/decompressionss1.png) </a>
 
 * Additional Instructions and Warnings are provided if the above steps are not followed correctly
 
-![noFile](screenshots/noFiless.png)
+<a href="#"> ![noFile](images/readme-images/nofile.png) </a>
 
-![smallFile](screenshots/vsmallFiless.png)
+<a href="#"> ![smallFile](images/readme-images/verysmallfile.png)  </a>
 
-* Website is Responsive
 
-![responsive](screenshots/responsivess.png)
 
-* Link at the bottom of the page links to an Info page that provides more information about Huffman Coding
+* About the tecnique of Lossless Data Compression with Huffman coding.
 
-![info1](screenshots/infoss1.png)
+<a href="#"> ![info1](images/readme-images/info.jpeg) </a>
 
-![info2](screenshots/infoss2.png)
