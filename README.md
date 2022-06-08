@@ -53,7 +53,7 @@ https://user-images.githubusercontent.com/77569653/172716965-50560f4a-2acf-4013-
     
     * De-compression
 
-    <a href="#"> ![decompression](images/readme-images/decompressionss1.png) </a>
+    <a href="#"> ![decompression](images/readme-images/decompression.png) </a>
 
 * Additional Instructions and Warnings are provided if the above steps are not followed correctly
 
