@@ -31,11 +31,12 @@ https://user-images.githubusercontent.com/77569653/172716965-50560f4a-2acf-4013-
 
 
 - [x] Landing Page:
-![screenshot](images/readme-images/landing-page.png)
+
+<a href="#"> ![screenshot](images/readme-images/landing-page.png) </a>
 
 - [x] Upload File
 
-![step1](images/readme-images/step1.png)
+<a href="#"> ![step1](images/readme-images/step1.png) </a>
 
 
 - [x] Select Action (Compress / De-compress)
