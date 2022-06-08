@@ -31,7 +31,7 @@ https://user-images.githubusercontent.com/77569653/172716965-50560f4a-2acf-4013-
 
 
 - [x] Landing Page:
-![screenshot](./images/readme-images/landing-page.png)
+![screenshot](images/readme-images/landing-page.png)
 
 - [x] Upload File
 
