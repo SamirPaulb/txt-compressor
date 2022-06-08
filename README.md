@@ -2,9 +2,13 @@
 <div align="center">
 <h1> Text File Compressor De-compressor Web App</h1>
 </div>
-* This webapp uses Huffman Coding for Text Compression and De-compression.
-* Made with JavaScript, HTML5 and CSS3.
-* Live Demo: [samirpaul1.github.io/txt-compressor](https://samirpaul1.github.io/txt-compressor/)
+
+
+- This webapp uses Huffman Coding for Text Compression and De-compression.
+
+- Made with JavaScript, HTML5 and CSS3.
+
+- Live Demo: [samirpaul1.github.io/txt-compressor](https://samirpaul1.github.io/txt-compressor/)
              [txt-compressor.herokuapp.com](https://txt-compressor.herokuapp.com/)
 
 ## About this application:
@@ -19,7 +23,7 @@
 ## User Interface:
 
 - [x] Live Demo
-![index](images/readme-images/demo.mp4)
+<a href="{images/readme-images/demo.mp4}" title="Live Demo Video">alt="Live Demo Video" /></a>
 
 - [x] Upload Your File
 
