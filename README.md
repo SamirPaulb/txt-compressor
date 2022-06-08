@@ -16,9 +16,8 @@
 * The website is made responsive (with HTML and CSS ) and interactive (with JavaScript ) .
 * An [Info page](https://samirpaul1.github.io/txt-compressor/info.html) is added to give more information about tecnique of **Lossless Data Compression** with Huffman coding.
 
-## User Interface:
 
-
+## Video
 https://user-images.githubusercontent.com/77569653/172716965-50560f4a-2acf-4013-ae87-8b474b2a09e3.mp4
 
 
