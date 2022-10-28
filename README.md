@@ -10,7 +10,7 @@
 
 - [x] [samirpaul1.github.io/txt-compressor](https://samirpaul1.github.io/txt-compressor/)
 
-- [x] [txt-compressor.herokuapp.com](https://txt-compressor.herokuapp.com/)
+- [x] [txt-compressor.vercel.app](https://txt-compressor.vercel.app/)
 
 
 ## About this application:
