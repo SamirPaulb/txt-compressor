@@ -66,7 +66,7 @@
             division of uncompressed size by compressed size. Thus, a representation that compresses a file's storage
             size from 10 MB to 2 MB has a compression ratio of 10/2 = 5
         </ol>
-        <center><img src="images/info-images/lossless-lossy-data-compression.png" alt="haffman-tree-and-binary-code-example.jpeg" height="130" width="60%"></center>
+        <center><img src="images/info-images/lossless-lossy-data-compression.png" alt="haffman-tree-and-binary-code-example.jpeg" loading="lazy" height="130" width="60%"></center>
         
         <br>
 <h2 style="color:blue">Huffman Code:</h2>
@@ -85,10 +85,10 @@
             sure that there is <b>no ambiguity</b> when decoding the generated bitstream.
         </ol>
         
-        <center><img src="images/info-images/huffman-coding.png" alt="haffman-tree-and-binary-code-example.jpeg" height="180" width="60%"></center>
+        <center><img src="images/info-images/huffman-coding.png" alt="haffman-tree-and-binary-code-example.jpeg" loading="lazy"  height="180" width="60%"></center>
         <br>
         <center><p>A Huffman coding tree built from this character frequency table: A=0.6, B=0.2, C=0.07, D=0.06, E=0.05, F=0.02.</p></center>
-        <center><img src="images/info-images/data-compression-with-huffmans-algorithm.png" alt="data-compression-with-huffmans-algorithm.png" height="200" width="50%"></center>
+        <center><img src="images/info-images/data-compression-with-huffmans-algorithm.png"  loading="lazy" alt="data-compression-with-huffmans-algorithm.png" height="200" width="50%"></center>
         
         <br>
         
@@ -104,20 +104,20 @@
             We count the number of each symbol in the whole data, then we calculate the “probability” of each symbol by dividing that count by the total number of characters in the data. Since its an algorithm using probability, more common symbols — the symbols having higher probability — are generally represented using fewer bits than less common symbols. This is one of the advantageous sides of Huffman Encoding. </li>
              <li>As an example, for the following data having 5 different symbols as A B C D E, we have the probabilities as shown right:</li>
         <br>
-        <center><img src="images/info-images/compression1.png" alt="" height="150" width="70%"></center>
+        <center><img src="images/info-images/compression1.png" alt="compression1" loading="lazy"  height="150" width="70%"></center>
         <li>Then we easily order the symbols according to their probabilities representing each symbol as a node and call that our “collection”. Now, we are ready to pass the next step.</li>
-        <center><img src="images/info-images/compression2.png" alt="" height="150" width="70%"></center>
+        <center><img src="images/info-images/compression2.png" alt="compression2" loading="lazy"  height="150" width="70%"></center>
         <li>Binary Tree Transformation:</li>
         <ol>1. From the collection, we pick out the two nodes with the smallest sum of probabilities and combine them into a new tree whose root has the probability equal to that sum.</ol>
         <ol>2. We add the new tree back into the collection.</ol>
         <ol>3. We repeat this process until one tree encompassing all the input probabilities has been constructed.<ol>
-        <center><img src="images/info-images/compression3.png" alt="" height="250" width="70%"></center>
-        <center><img src="images/info-images/compression4.png" alt="" height="250" width="70%"></center>
-        <center><img src="images/info-images/compression5.png" alt="" height="200" width="70%"></center>
+        <center><img src="images/info-images/compression3.png" alt="compression3" loading="lazy"  height="250" width="70%"></center>
+        <center><img src="images/info-images/compression4.png" alt="compression4" loading="lazy"  height="250" width="70%"></center>
+        <center><img src="images/info-images/compression5.png" alt="compression5" loading="lazy"  height="200" width="70%"></center>
         <center><b>Implementation with Python:</b></center>
-        <center><img src="images/info-images/compression-code.png" alt="python implementation code" height="100%" width="90%"></center>
+        <center><img src="images/info-images/compression-code.png" alt="python implementation code" loading="lazy"  height="100%" width="90%"></center>
         <center><b>output:</b></center>
-        <center><img src="images/info-images/compression-code-output.png" alt="python implementation code" height="100%" width="70%"></center>
+        <center><img src="images/info-images/compression-code-output.png" alt="python implementation code" loading="lazy"  height="100%" width="70%"></center>
         <br>
         <ol>As a conclusion, we see that the compression ratio does not change with the growing amount of data, and this ratio is close to 2:1. We can say that Huffman Encoding is an algorithm that compresses the data to its half size. Although it is old, it is still an effective compression algorithm! </ol>
 
@@ -127,12 +127,12 @@
 
 		<li>Let’s consider we have the same example with Huffman Encoding post, therefore we have AAAAAAABCCCCCCDDEEEEE as our initial data and 000000000000001110101010101011101101010101010 as encoded output with the following Huffman Tree:</li>
         <br>
-        <center><img src="images/info-images/huffman-tree-for-decoding.png" alt="huffman-tree-for-decoding.png" height="250" width="60%"></center>
+        <center><img src="images/info-images/huffman-tree-for-decoding.png" alt="huffman-tree-for-decoding.png"  loading="lazy" height="250" width="60%"></center>
         <br>
         <li>Now the only thing we should do is starting from the head of Huffman Tree and from the beginning of the encoded data, each time we encounter 1 we go right and while we encounter 0, we go left through the Huffman Tree. When we reach at a leaf node, we obtain the symbol! Then we just start again from the head of Huffman Tree while moving forward on encoded data.</li>
         <li> With a few lines added in huffman.py coming from Huffman Encoding & Python Implementation, we can easily implement Huffman_Decoding and here is the result:</li>
-        <center><img src="images/info-images/Huffman_Decoding-carbon-python-code.png" alt="Huffman_Decoding-carbon-python-code" height="380" width="80%"></center>
-        <center><img src="images/info-images/huffman_decoding-python-code-result.png" alt="huffman_decoding-python-code-result" height="170" width="80%"></center>
+        <center><img src="images/info-images/Huffman_Decoding-carbon-python-code.png" alt="Huffman_Decoding-carbon-python-code" loading="lazy"  height="380" width="80%"></center>
+        <center><img src="images/info-images/huffman_decoding-python-code-result.png" alt="huffman_decoding-python-code-result" loading="lazy"  height="170" width="80%"></center>
         <li>Data compression is a topic of many applications and it has various different types of algorithms beside of “frequency based” Huffman Algorithm. You can check for “dictionary based” methods like LZ77 LZ78 LZW which are useful for image compression especially.</li>
     <br>
     </ul>
